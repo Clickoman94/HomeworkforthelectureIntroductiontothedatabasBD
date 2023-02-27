@@ -45,21 +45,6 @@ echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main" 
 sudo apt update && sudo apt install pgadmin4
 ```
 
-### Mac OS X
-
-[Видеоинструкция](https://clck.ru/32zuuG)
-
-Команды для установки:
-
-```bash
-brew install postgresql
-
-postgres -V
-
-pg_ctl -D /usr/local/var/postgres start
-
-createuser -P -s postgres
-```
 
 ## Задание 3 (подготовка к следующей лекции)
 
